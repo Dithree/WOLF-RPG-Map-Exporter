@@ -148,6 +148,8 @@ class WolfMapGUI:
         self.root.config(menu=menubar)
         self._lang_menu_label = menubar
         self._langmenu = langmenu
+        top = tk.Frame(self.root)
+        top.pack(fill=tk.X, padx=6, pady=6)
         self.btn_select = tk.Button(top, text=self.tr('select_game'), command=self.select_game)
         self.btn_select.pack(side=tk.LEFT)
         self.dir_lbl = tk.Label(top, text=self.tr('not_selected'), anchor='w', fg='#555')
