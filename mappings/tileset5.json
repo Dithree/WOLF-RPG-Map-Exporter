@@ -1,0 +1,25 @@
+{
+  "game": "current_demo",
+  "tileset": 5,
+  "base": {
+    "atlas": "MapChip/[M]04.png",
+    "cols": 8,
+    "formula": "row=id//8, col=id%8",
+    "row_shift": 0
+  },
+  "autotile": {
+    "aid_to_file_index": {
+      "1": null,
+      "2": 0,
+      "3": 1,
+      "4": 2,
+      "5": 3,
+      "6": 4,
+      "7": 5
+    },
+    "empty_aids": [1]
+  },
+  "layer_order": [0, 1, 2],
+  "transpose_rule": "square=true, non-square=false",
+  "verified": ["Map019", "TestManual", "ConvertTest_id1", "ConvertTest_id5", "ConvertTest_id6"]
+}

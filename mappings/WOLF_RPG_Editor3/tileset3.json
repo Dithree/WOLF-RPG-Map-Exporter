@@ -1,0 +1,42 @@
+{
+  "game": "WOLF_RPG_Editor3",
+  "tileset": 3,
+  "base": {
+    "atlas": "MapChip/[M]02.png",
+    "cols": 8,
+    "formula": "row=id//8, col=id%8",
+    "row_shift": 0,
+    "raw_to_rc": {}
+  },
+  "autotile": {
+    "aid_to_file_index": {
+      "1": null,
+      "2": 0,
+      "3": 1,
+      "4": 2,
+      "5": 3,
+      "6": 4,
+      "7": 5,
+      "8": 6
+    },
+    "empty_aids": [
+      1
+    ]
+  },
+  "layer_order": [
+    0,
+    1,
+    2
+  ],
+  "transpose_rule": "square=true, non-square=false",
+  "verified": [],
+  "auto_files": [
+    "MapChip/[A]Wall-Up1_pipo.png",
+    "MapChip/[A]Wall-Up2_pipo.png",
+    "MapChip/t_fairy02.png",
+    "MapChip/[A]Water1_Cave4_pipo.png",
+    "MapChip/t_town03.png",
+    "MapChip/[A]Grass1-Dirt2_pipo.png",
+    "MapChip/t_longglass.png"
+  ]
+}

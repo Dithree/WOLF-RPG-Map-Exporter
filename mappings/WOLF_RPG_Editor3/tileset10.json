@@ -1,0 +1,38 @@
+{
+  "game": "WOLF_RPG_Editor3",
+  "tileset": 10,
+  "base": {
+    "atlas": "MapChip/[M]09.png",
+    "cols": 8,
+    "formula": "row=id//8, col=id%8",
+    "row_shift": 0,
+    "raw_to_rc": {}
+  },
+  "autotile": {
+    "aid_to_file_index": {
+      "1": null,
+      "2": 0,
+      "3": 1,
+      "4": 2,
+      "5": 3,
+      "6": 4
+    },
+    "empty_aids": [
+      1
+    ]
+  },
+  "layer_order": [
+    0,
+    1,
+    2
+  ],
+  "transpose_rule": "square=true, non-square=false",
+  "verified": [],
+  "auto_files": [
+    "MapChip/[A]Wall-Up1_pipo.png",
+    "MapChip/[A]Wall-Up2_pipo.png",
+    "MapChip/e_t_t枠付き芝生.png",
+    "MapChip/glass2.png",
+    "MapChip/e_t13街_時計台の街_t02緑柵上部.png"
+  ]
+}

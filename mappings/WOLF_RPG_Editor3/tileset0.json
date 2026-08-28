@@ -1,0 +1,30 @@
+{
+  "game": "WOLF_RPG_Editor3",
+  "tileset": 0,
+  "base": {
+    "atlas": "MapChip/Image1.png",
+    "cols": 8,
+    "formula": "row=id//8, col=id%8",
+    "row_shift": 0,
+    "raw_to_rc": {}
+  },
+  "autotile": {
+    "aid_to_file_index": {
+      "1": null,
+      "2": 0
+    },
+    "empty_aids": [
+      1
+    ]
+  },
+  "layer_order": [
+    0,
+    1,
+    2
+  ],
+  "transpose_rule": "square=true, non-square=false",
+  "verified": [],
+  "auto_files": [
+    "MapChip/glass1.png"
+  ]
+}
