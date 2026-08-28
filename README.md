@@ -1,4 +1,4 @@
-# WOLF RPG 地图导出工具 v1.0
+# WOLF RPG 地图导出工具 v1.1
 
 <p align="center">
   🌐 Language: <b>中文</b> · <a href="README.en.md">English</a> · <a href="README.ja.md">日本語</a>
