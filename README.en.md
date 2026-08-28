@@ -1,4 +1,4 @@
-# WOLF RPG Map Exporter v1.0
+# WOLF RPG Map Exporter v1.1
 
 <p align="center">
   🌐 Language: <a href="README.md">中文</a> · <b>English</b> · <a href="README.ja.md">日本語</a>
@@ -18,7 +18,7 @@ A fully offline **WOLF RPG Editor (ウディタ) map renderer/exporter**. Render
 
 ## Usage
 
-1. Run `WOLF_RPG_地图导出工具v1.0.exe`.
+1. Run `WOLF_RPG_地图导出工具v1.1.exe`.
 2. Click **「Select Game (Data folder)」** and choose the game's `Data` folder (or a directory containing `MapData`).
 3. Left map list: check the maps to export; click a map name to preview; multiple maps can be checked at once.
 4. Choose an export mode at the bottom:
@@ -29,7 +29,7 @@ A fully offline **WOLF RPG Editor (ウディタ) map renderer/exporter**. Render
 
 ---
 
-## Changelog v1.0
+## Changelog v1.1
 
 This tool went through complete reverse-engineering and many fixes:
 
