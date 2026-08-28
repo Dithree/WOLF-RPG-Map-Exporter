@@ -38,7 +38,7 @@ STRINGS = {
     'export_current': {'zh': '导出当前地图', 'ja': '現在のマップを出力', 'en': 'Export current map'},
     'export_selected': {'zh': '导出所选地图', 'ja': '選択したマップを出力', 'en': 'Export selected maps'},
     'copy_clipboard': {'zh': '复制到剪贴板', 'ja': 'クリップボードにコピー', 'en': 'Copy to clipboard'},
-    'lang_menu': {'zh': '语言', 'ja': '言語', 'en': 'Language'},
+    'lang_menu': {'zh': 'Language', 'ja': 'Language', 'en': 'Language'},
     'lang_zh': {'zh': '中文', 'ja': '中文', 'en': 'Chinese'},
     'lang_ja': {'zh': '日本語', 'ja': '日本語', 'en': 'Japanese'},
     'lang_en': {'zh': 'English', 'ja': 'English', 'en': 'English'},
@@ -112,11 +112,26 @@ def _save_last_dir(d):
         pass
 
 
+def _detect_lang():
+    """Detect the UI language from the OS locale (ja -> ja, en -> en, else zh)."""
+    try:
+        import locale
+        lang, _ = locale.getdefaultlocale()
+        code = (lang or '').lower()
+    except Exception:
+        code = ''
+    if code.startswith('ja'):
+        return 'ja'
+    if code.startswith('en'):
+        return 'en'
+    return 'zh'
+
+
 class WolfMapGUI:
     def __init__(self, root):
         self.root = root
-        self.lang = 'zh'
-        root.title(STRINGS['app_title']['zh'])
+        self.lang = _detect_lang()
+        root.title(STRINGS['app_title'][self.lang])
         root.geometry("1000x680")
         self.map_dir = None
         self.data_root = None
@@ -225,8 +240,7 @@ class WolfMapGUI:
 
     def _set_lang(self, code):
         self.lang = code
-        # update menu cascade label + radios
-        self._lang_menu_label.entryconfig(0, label=self.tr('lang_menu'))
+        # update radio labels in the language menu
         for i, (c, k) in enumerate([('zh', 'lang_zh'), ('ja', 'lang_ja'), ('en', 'lang_en')]):
             self._langmenu.entryconfig(i, label=self.tr(k))
         # update widgets
