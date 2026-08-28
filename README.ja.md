@@ -4,6 +4,10 @@
   🌐 言語: <a href="README.md">中文</a> · <a href="README.en.md">English</a> · <b>日本語</b>
 </p>
 
+<p align="center">
+  <img src="preview.png" alt="プレビュー" width="640">
+</p>
+
 WOLF RPG Editor（ウディタ）のマップを、エディタを開かずに **PNG 画像**として出力できる完全オフラインのマップ描画/出力ツールです。**マップ層**と**イベント層**を分けて出力できます。
 
 - 日本語・中国語のファイル名の素材に対応し、非英語パスでも動作

@@ -4,6 +4,10 @@
   🌐 Language: <a href="README.md">中文</a> · <b>English</b> · <a href="README.ja.md">日本語</a>
 </p>
 
+<p align="center">
+  <img src="preview.png" alt="Preview" width="640">
+</p>
+
 A fully offline **WOLF RPG Editor (ウディタ) map renderer/exporter**. Renders `.mps` maps to PNG images without opening the editor, and can export the **map layer** and **event layer** separately.
 
 - Supports assets with Japanese/Chinese filenames; runs in non-English paths

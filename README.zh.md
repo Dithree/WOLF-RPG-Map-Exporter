@@ -4,6 +4,10 @@
   🌐 Language: <b>中文</b> · <a href="README.en.md">English</a> · <a href="README.ja.md">日本語</a>
 </p>
 
+<p align="center">
+  <img src="preview.png" alt="预览" width="640">
+</p>
+
 一个完全离线的 **WOLF RPG Editor（ウディタ）地图渲染/导出工具**。无需打开编辑器即可把 `.mps` 地图渲染成图片，并支持把**地图层**与**事件层**分开导出。
 
 - 支持含日文/中文文件名的素材，可在非英文路径下运行
