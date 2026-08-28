@@ -1,8 +1,13 @@
 # WOLF RPG 地图导出工具 v1.0
 
+<p align="center">
+  🌐 Language: <b>中文</b> · <a href="README.en.md">English</a> · <a href="README.ja.md">日本語</a>
+</p>
+
 一个完全离线的 **WOLF RPG Editor（ウディタ）地图渲染/导出工具**。无需打开编辑器即可把 `.mps` 地图渲染成图片，并支持把**地图层**与**事件层**分开导出。
 
 - 支持含日文/中文文件名的素材，可在非英文路径下运行
+- 界面支持 **中文 / 日本語 / English** 切换（顶部菜单 语言）
 - 本工具由 **DeepSeek-v4-flash** 制作完成（作者仅提供工作思路），可导出游戏地图用于资料整理或留念等
 - 感谢 **夏拉** 制作的中文编辑器和收集的资料
   - 编辑器汉化发布贴：https://tieba.baidu.com/p/8466671485?fr=frs
