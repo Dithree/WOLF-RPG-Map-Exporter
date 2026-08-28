@@ -66,9 +66,3 @@ This tool went through complete reverse-engineering and many fixes:
 - Fully offline rendering; does not depend on the WOLF RPG Editor itself.
 - Rendering is based on reverse-engineering the WOLF RPG Editor engine; in principle it works for all games of the same editor.
 - If some tiles/corners are still imprecise, extend the rule table via the **unique-color export + auto rule collection** workflow (see `_rebuild_rule_table_aid.py`).
-
-## License
-
-MIT
-
-Version: 1.0
